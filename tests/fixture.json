@@ -1,0 +1,26 @@
+{
+  "schemaVersion": 1,
+  "tool": "win-update-report",
+  "collectedAtUtc": "2026-01-10T12:00:00Z",
+  "platform": "Synthetic Windows fixture",
+  "evidence": {
+    "history": [
+      {
+        "timeUtc": "2026-01-10T10:00:00Z",
+        "title": "Example update",
+        "resultCode": 4,
+        "operation": 1,
+        "hresult": "0x80070070"
+      }
+    ],
+    "events": [],
+    "rebootIndicators": {
+      "cbs": true,
+      "windowsUpdate": false,
+      "pendingFileRename": false
+    },
+    "historyCapped": false,
+    "systemDriveFreeBytes": 1073741824
+  },
+  "issues": []
+}
